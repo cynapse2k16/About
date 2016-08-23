@@ -5,6 +5,20 @@
  *
  * Made By MaterializeCSS.com
  */
+ .abc
+ {
+   background-color: rgba(0,0,0,0.6);
+ }
+.shad{
+  text-shadow:
+    1px 1px 0 #000,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
 
 nav ul a,
 nav .brand-logo {
